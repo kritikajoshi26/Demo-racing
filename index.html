@@ -15,30 +15,43 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
-<script>
+<script type="module">
+
   // Import the functions you need from the SDKs you need
+
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+
+  // Your web app's Firebase configuration
+
   const firebaseConfig = {
 
-    apiKey: "AIzaSyDGMKsPCUtDm3eqBCOgkFlA23NA2R9qDmA",
+    apiKey: "AIzaSyBMvBLBQLifOL98UNwAmHVXDcEvmwgEg6s",
 
-    authDomain: "fir-multiplayer-car-racing.firebaseapp.com",
+    authDomain: "multiplayer-car-racing-g-c7481.firebaseapp.com",
 
-    databaseURL: "https://fir-multiplayer-car-racing-default-rtdb.firebaseio.com",
+    databaseURL: "https://multiplayer-car-racing-g-c7481-default-rtdb.firebaseio.com",
 
-    projectId: "fir-multiplayer-car-racing",
+    projectId: "multiplayer-car-racing-g-c7481",
 
-    storageBucket: "fir-multiplayer-car-racing.appspot.com",
+    storageBucket: "multiplayer-car-racing-g-c7481.appspot.com",
 
-    messagingSenderId: "873813252668",
+    messagingSenderId: "988012701149",
 
-    appId: "1:873813252668:web:a5ff8f57f448cef72f4139"
+    appId: "1:988012701149:web:ad23e9fde63809cf744234"
 
   };
-    projectId: "multiplayer-car-racing-g-41ea8",
-    storageBucket: "multiplayer-car-racing-g-41ea8.appspot.com",
-    messagingSenderId: "754284159101",
-    appId: "1:754284159101:web:c6bb00a83124862b2a9114"
-  };
+
+
+  // Initialize Firebase
+
+  const app = initializeApp(firebaseConfig);
+
+</script>
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
